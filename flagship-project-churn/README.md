@@ -10,6 +10,8 @@ Identify the main factors driving attrition.
 Provide business recommendations to improve retention.
 
 📂 Project Structure
+
+
 flagship-project-churn/
 │
 ├── data/                # raw and cleaned datasets
@@ -17,7 +19,6 @@ flagship-project-churn/
 ├── reports/             # case study report (Markdown + PDF)
 ├── visuals/             # decision tree, confusion matrix, dashboard
 └── README.md            # project overview
-
 
 🔧 Tools & Methods
 
