@@ -1,55 +1,84 @@
-# 📊 Customer Churn Prediction
+📊 Customer Churn Prediction
+📌 Project Overview
 
-## 📌 Project Overview
-Telecommunication companies often face high customer churn rates, which directly impact revenue.
-This project analyzes the **Telco Customer Churn dataset** to predict churn and identify the most important factors influencing customer retention.
+Telecommunication companies face significant revenue loss from customer churn. This project analyzes the Telco Customer Churn dataset to:
 
----
+Predict customer churn.
 
-## 🔧 Tools & Methods
-- **Data Cleaning & Wrangling**: Python (pandas, numpy)
-- **Exploratory Data Analysis (EDA)**: Matplotlib, Seaborn
-- **Modeling**: CART (Classification and Regression Trees), Logistic Regression
-- **Visualization**: Tableau dashboard (customer segments & churn rates)
+Identify the main factors driving attrition.
 
----
+Provide business recommendations to improve retention.
 
-## 📊 Key Steps
-1. **Data Preparation**
-   - Clean missing values in `TotalCharges`.
-   - Encode categorical variables (contract type, payment method, etc.).
+📂 Project Structure
+flagship-project-churn/
+│
+├── data/                # raw and cleaned datasets
+├── notebooks/           # Jupyter notebooks (EDA, modeling, evaluation)
+├── reports/             # case study report (Markdown + PDF)
+├── visuals/             # decision tree, confusion matrix, dashboard
+└── README.md            # project overview
 
-2. **Exploratory Data Analysis**
-   - Customers on month-to-month contracts are **3x more likely to churn**.
-   - High monthly charges strongly correlate with churn probability.
+🔧 Tools & Methods
 
-3. **Modeling**
-   - **CART Model** achieved ~82% accuracy.
-   - Logistic Regression achieved ~80% accuracy.
-   - CART provided interpretable decision rules (great for business teams).
+Data Cleaning & Wrangling: Python (pandas, numpy)
 
-4. **Visualization**
-   - Tableau dashboard showing churn distribution by contract type, charges, and tenure.
+Exploratory Data Analysis (EDA): matplotlib, seaborn
 
----
+Modeling: CART (Classification and Regression Tree), Logistic Regression
 
-## 📈 Results & Business Recommendations
-- Customers with **month-to-month contracts** and **high monthly charges** are at highest churn risk.
-- Recommendation:
-  - Offer discounts for long-term contracts.
-  - Target retention campaigns at high-charge, short-tenure customers.
+Visualization: Tableau / Power BI (dashboards), static PNGs
 
----
+📊 Key Steps
 
-## 📂 Structure
-- `data/` → raw + cleaned dataset
-- `notebooks/` → cleaning, EDA, modeling
-- `reports/` → case study (PDF/Markdown)
-- `visuals/` → decision tree, confusion matrix, screenshots
+Data Preparation
 
----
+Cleaned missing values in TotalCharges.
 
-## 🔗 Links
-- Notebook: `notebooks/03_modeling_CART.ipynb` (placeholder)
-- Dashboard: *(add your Tableau link)*
-- Report: `reports/churn_case_study.md`
+Encoded categorical variables.
+
+Balanced dataset (churn ≈ 26%).
+
+Exploratory Data Analysis (EDA)
+
+Month-to-month customers had the highest churn (~43%).
+
+High monthly charges strongly correlated with churn.
+
+Tenure under 1 year was the riskiest group.
+
+Modeling
+
+CART: ~82% accuracy. Provided clear business rules.
+
+Logistic Regression: ~80% accuracy. Confirmed variable significance.
+
+📈 Results & Insights
+
+Top Predictors of Churn:
+
+Contract type (month-to-month most at risk).
+
+Monthly charges (higher bills → higher churn).
+
+Customer tenure (shorter tenure → higher churn).
+
+Business Recommendations:
+
+Promote 1–2 year contracts with discounts.
+
+Launch retention campaigns for short-tenure, high-charge customers.
+
+Offer bundles/loyalty perks to reduce bill shock.
+
+📑 Report
+
+Case Study (Markdown)
+
+Case Study (PDF)
+
+🖼 Visuals
+CART Decision Tree
+
+Confusion Matrix
+
+Sample Dashboard
