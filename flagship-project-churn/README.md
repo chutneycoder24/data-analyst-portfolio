@@ -18,6 +18,7 @@ flagship-project-churn/
 ├── visuals/             # decision tree, confusion matrix, dashboard
 └── README.md            # project overview
 
+
 🔧 Tools & Methods
 
 Data Cleaning & Wrangling: Python (pandas, numpy)
