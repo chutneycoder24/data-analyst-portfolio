@@ -1,5 +1,46 @@
+# --- Site basics ---
 title: "Kim’s Data Analyst Portfolio"
-description: "Data cleaning, visualization, ML, and BI projects"
+description: "Data cleaning, visualization, ML, and BI projects by Kimberli Kidd"
+url: "https://<your-username>.github.io"
+baseurl: "/data-analyst-portfolio"   # If your repo is NOT <user>.github.io; otherwise set to "" (empty)
+
+# --- Look & feel ---
 theme: minima
-# Optional: use pretty permalinks for nicer URLs
 permalink: pretty
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# --- Build/SEO extras (GitHub Pages–safe) ---
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# --- Navigation (optional) ---
+minima:
+  skin: auto         # auto / dark / classic
+  social_links:
+    - { platform: github,  user_url: "https://github.com/chutneycoder24" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/KimberliKidd/" }
+    - { platform: email,   user_url: "mailto:your@email.com" }
+
+# --- Collections/pages to surface (optional) ---
+# Add links to top nav if you want dedicated pages later:
+# header_pages:
+#   - index.md
+#   - flagship-project-churn/index.md
+#   - dashboards/index.md
+#   - sql-projects/index.md
+
+# --- Author (optional, helps SEO tag) ---
+author:
+  name: "Kimberli Kidd"
+  email: "your@email.com"
+
+# --- Exclusions to speed up build ---
+exclude:
+  - README_local.md
+  - node_modules
+  - vendor
+  - .github
