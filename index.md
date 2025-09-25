@@ -4,8 +4,8 @@ title: "Kim’s Data Analyst Portfolio"
 ---
 
 {% comment %}
-This index.md powers your GitHub Pages site. It mirrors README.md below.
-If you edit README.md, also update here (or keep include_relative pointed to README.md).
+This file powers your GitHub Pages homepage.
+It reuses the root README.md so your repo and your site stay in sync.
 {% endcomment %}
 
 {% include_relative README.md %}
