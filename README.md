@@ -1,6 +1,6 @@
 📊 Kim’s Data Analyst Portfolio
 
-Welcome! I’m Kimberli Kidd, a data analyst passionate about turning raw data into actionable insights.
+Welcome! I’m (insert name), a data analyst passionate about turning raw data into actionable insights.
 This portfolio highlights my skills in data cleaning, visualization, machine learning, and business intelligence.
 
 You’ll find end-to-end projects, interactive dashboards, and case studies that showcase how I apply analytics to solve real-world problems.
